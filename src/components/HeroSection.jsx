@@ -1,16 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from "styled-components"
+import { AppContext } from '../Context';
 import { Button } from './Button';
 
+
 const HeroSection = ({name,image}) => {
+  const {fname,title}=useContext(AppContext)
    return (
     <Wrapper>
       <div className='container grid grid-two-column'>
       <div className="section-hero-data">
          <p className='hero-top-data'>This is me</p>
          <h1 className='hero-heading'>{name}</h1>
-         <p className='hero-para'>I am learning stack web development course on Ostad and learn the most in-demand website coding skills with the help of real-world experts</p>
+         <p className='hero-para'>I am {fname} and {title} and learning stack web development course on Ostad and learn the most in-demand website coding skills with the help of real-world experts</p>
 
          <Button className="btn hireme-btn">
             <NavLink to="/contact"> hire me </NavLink>
