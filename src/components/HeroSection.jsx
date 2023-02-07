@@ -3,13 +3,13 @@ import { NavLink } from 'react-router-dom';
 import styled from "styled-components"
 import { Button } from './Button';
 
-const HeroSection = () => {
+const HeroSection = ({name,image}) => {
    return (
     <Wrapper>
       <div className='container grid grid-two-column'>
       <div className="section-hero-data">
          <p className='hero-top-data'>This is me</p>
-         <h1 className='hero-heading'>REZ TECH</h1>
+         <h1 className='hero-heading'>{name}</h1>
          <p className='hero-para'>I am learning stack web development course on Ostad and learn the most in-demand website coding skills with the help of real-world experts</p>
 
          <Button className="btn hireme-btn">
@@ -18,7 +18,7 @@ const HeroSection = () => {
       </div>
       <div className="section-hero-image">
          <picture>
-            <img src="./images/hero.svg" alt="hero image" className="hero-img " />
+            <img src={image} alt="hero image" className="hero-img " />
          </picture>
       </div>
       </div>
@@ -41,7 +41,7 @@ padding: 9rem 0;
 
   .hero-top-data {
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.5rem;
     color: ${({ theme }) => theme.colors.helper};
   }

@@ -3,10 +3,14 @@ import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 
 const Home = () => {
+  const data={
+    name:"REZ TECH",
+    image:"./images/hero.svg"
+  }
   return (
-    <div>
-     <HeroSection/>
-    </div>
+    
+     <HeroSection {...data}/>
+    
   )
 }
 
