@@ -3,11 +3,13 @@ import { NavLink } from 'react-router-dom'
 import logo from '../assets/logo.png'
 import Nav from './Nav'
 import styled from 'styled-components'
+import { GlobalStyle } from '../GlobalStyle'
 
 const Header = () => {
   return (
     <>
   <MainHeader>
+    <GlobalStyle/>
   <NavLink to='/'>
       <img src={logo} alt="logo is not find" className='logo'/>
    </NavLink>
@@ -24,7 +26,7 @@ display:flex;
 justify-content: space-between;
 align-items: center;
 .logo{
-  height: 4rem;
+  height: 4.5rem;
   max-width: 100%;
 }
 
