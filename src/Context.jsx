@@ -1,4 +1,4 @@
-import React, { useContext, useDeferredValue, useReducer } from 'react';
+import React, { useContext, useDeferredValue, useEffect, useReducer } from 'react';
 import Reducer from './Reducer';
 
 const AppContext=React.createContext()
@@ -40,7 +40,7 @@ const AppProvider=({children})=>{
       try{
       const res=await fetch(url)
       const data=await res.json()
-      d
+      
       dispatch({type:"GET_SERVICES",payload:data})
       }catch(error){
          console.log(error)
@@ -51,7 +51,7 @@ const AppProvider=({children})=>{
 
    useEffect(() => {
      
-   getServices()
+   getServices(API)
     
    }, [])
    
