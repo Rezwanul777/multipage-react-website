@@ -1,9 +1,11 @@
-import React, { useContext, useDeferredValue, useEffect, useReducer } from 'react';
+
+import React, { useContext, useEffect, useReducer } from 'react';
 import Reducer from './Reducer';
 
 const AppContext=React.createContext()
 
-const API = "https://thapareactapi.up.railway.app";
+const API = "data.json";
+//const API="https://jsonplaceholder.typicode.com/photos"
 
 const initialState={
    name:"",
@@ -40,10 +42,13 @@ const AppProvider=({children})=>{
       try{
       const res=await fetch(url)
       const data=await res.json()
+      debugger;
+      //console.log(data)
       
       dispatch({type:"GET_SERVICES",payload:data})
+
       }catch(error){
-         console.log(error)
+         console.log({error:"error"})
       }
    }
 

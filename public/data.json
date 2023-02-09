@@ -1,0 +1,57 @@
+[
+   {
+     "id": "1",
+     "price": "Tk 40000",
+     "description": "Establishes diagnosis and provides preoperative, operative and post-operative care. Responsible for the comprehensive management of trauma victims and critically ill patients.\n",
+     "name": "Mr Rezwan",
+     
+     "imageName": "medical instrument",
+     "image": "https://i.ibb.co/h78N7sq/service1.jpg"
+   },
+   {
+     "id": "2",
+     "price": "Tk 20000",
+     "description": "Consults and diagnoses patients in office, and treats patients experiencing problems of the intestine and colon. Performs operation.\n",
+     "name": " Mr Rezwan",
+     
+     "imageName": "neuro operation",
+     "image": "https://i.ibb.co/2g009XX/service2.jpg"
+   },
+   {
+     "id": "3",
+     "price": "Tk 15000",
+     "description": "Works with emerging technologies like computer-based neuro-navigation, spinal biomechanics and instrumentation, gene therapy, and catheter-driven endovascular techniques.\n",
+     "name": "Mr Adeeb",
+     
+     "imageName": "Neuro spine",
+     "image": "https://i.ibb.co/NyBGnjC/service3.jpg"
+   },
+   {
+     "id": "4",
+     "price": "Tk 10000",
+     "description": "Conducts trauma evaluations. Performs exploratory surgeries, chest wall stabilizations, appendectomies, and bronchoscopies as well as nonoperative techniques. Coordinates patient care with other providers.\n",
+     "name": "Dr Sfiyaah",
+    
+     "imageName": "Intensive Care people",
+     "image": "https://i.ibb.co/S59qZXr/service4.jpg"
+   },
+   {
+     "id": "5",
+     "price": "Tk 7000",
+     "description": "Provides medical and surgical care to treat conditions that affect the female reproductive system. Works in conjunction with primary care physicians to provide routine patient health maintenance.\n",
+     "name": "Mr Ayaan",
+    
+     "imageName": "Operation section",
+     "image": "https://i.ibb.co/gMp2Kdk/team1.jpg"
+   },
+   {
+     "id": "6",
+     "price": "tk 5000",
+     "description": "Diagnoses and treats all eye and visual problems. Provides vision services such as glasses and contact lenses. Performs surgical procedures for treatment.\n",
+     "name": "Mr Haque",
+    
+     "imageName": "Quick and polite service",
+     "image": "https://i.ibb.co/F4BKj9B/team2.jpg"
+   }
+   
+ ]
