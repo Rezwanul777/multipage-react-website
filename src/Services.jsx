@@ -10,15 +10,15 @@ const Services = () => {
   return (
     <Wrapper className="section">
       <h2 className='common-heading'>Our Services</h2>
-      <div className='grid grid-container grid-three-column'>
+      <div className='container grid grid-three-column'>
        
         {
           services.slice(0,6).map((curElem)=>{
-            const{id,title,url,description}=curElem
+            const{id,title,image,name,description}=curElem
             return( 
             <div key={id} className="card">
               <figure>
-                <img src={url}alt={name} />
+                <img src={image}alt={name} />
               </figure>
               <div>
                 <h3>{name}</h3>

@@ -2,56 +2,56 @@
    {
      "id": "1",
      "price": "Tk 40000",
-     "description": "Establishes diagnosis and provides preoperative, operative and post-operative care. Responsible for the comprehensive management of trauma victims and critically ill patients.\n",
-     "name": "Mr Rezwan",
+     "description": "Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.\n",
+     "name": "Web Development",
      
-     "imageName": "medical instrument",
-     "image": "https://i.ibb.co/h78N7sq/service1.jpg"
+     
+     "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=1600&q=60"
    },
    {
      "id": "2",
      "price": "Tk 20000",
-     "description": "Consults and diagnoses patients in office, and treats patients experiencing problems of the intestine and colon. Performs operation.\n",
-     "name": " Mr Rezwan",
+     "description": "Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.\n",
+     "name": " Web Design",
      
-     "imageName": "neuro operation",
-     "image": "https://i.ibb.co/2g009XX/service2.jpg"
+     
+     "image": "https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1600&q=60"
    },
    {
      "id": "3",
      "price": "Tk 15000",
-     "description": "Works with emerging technologies like computer-based neuro-navigation, spinal biomechanics and instrumentation, gene therapy, and catheter-driven endovascular techniques.\n",
-     "name": "Mr Adeeb",
+     "description": "Digital marketing is the component of marketing that uses the Internet and online based digital technologies such as desktop computers, mobile phones and other digital media and platforms to promote products and service.\n",
+     "name": "Digital Market",
      
-     "imageName": "Neuro spine",
-     "image": "https://i.ibb.co/NyBGnjC/service3.jpg"
+    
+     "image": "https://images.unsplash.com/photo-1562577308-9e66f0c65ce5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGlnaXRhbCUyMG1hcmtldGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1600&q=60"
    },
    {
      "id": "4",
      "price": "Tk 10000",
-     "description": "Conducts trauma evaluations. Performs exploratory surgeries, chest wall stabilizations, appendectomies, and bronchoscopies as well as nonoperative techniques. Coordinates patient care with other providers.\n",
-     "name": "Dr Sfiyaah",
+     "description": "Social media are interactive technologies that facilitate the creation and sharing of information, ideas, interests, and other forms of expression through virtual communities and networks.\n",
+     "name": "SOCIAL MEDIA",
     
-     "imageName": "Intensive Care people",
-     "image": "https://i.ibb.co/S59qZXr/service4.jpg"
+     
+     "image": "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c29jaWFsJTIwbWVkaWF8ZW58MHx8MHx8&auto=format&fit=crop&w=1600&q=60"
    },
    {
      "id": "5",
      "price": "Tk 7000",
-     "description": "Provides medical and surgical care to treat conditions that affect the female reproductive system. Works in conjunction with primary care physicians to provide routine patient health maintenance.\n",
-     "name": "Mr Ayaan",
+     "description": "A Data Entry Clerk is responsible for transferring data from paper formats into computer files or database systems. Their transfer of data happens manually or using scanners.\n",
+     "name": "DATA ENTRY",
     
-     "imageName": "Operation section",
-     "image": "https://i.ibb.co/gMp2Kdk/team1.jpg"
+    
+     "image": "https://images.unsplash.com/photo-1599658880436-c61792e70672?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8REFUQSUyMEVOVFJZfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1600&q=60"
    },
    {
      "id": "6",
      "price": "tk 5000",
-     "description": "Diagnoses and treats all eye and visual problems. Provides vision services such as glasses and contact lenses. Performs surgical procedures for treatment.\n",
-     "name": "Mr Haque",
+     "description": "Search engine optimization (SEO) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines.\n",
+     "name": "SEO",
     
-     "imageName": "Quick and polite service",
-     "image": "https://i.ibb.co/F4BKj9B/team2.jpg"
+    
+     "image": "https://images.unsplash.com/photo-1637606346315-d23ed32a6cfc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8U0VPfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1600&q=60"
    }
    
  ]
