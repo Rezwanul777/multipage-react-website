@@ -7,6 +7,7 @@ import Contact from './Contact'
 import Home from './Home'
 import Services from './Services'
 import { ThemeProvider } from 'styled-components'
+import Error from './Error'
 
 const App = () => {
   const theme = {
@@ -38,6 +39,7 @@ const App = () => {
     <Route path='/about'element={<About/>}/>
     <Route path='/contact'element={<Contact/>}/>
     <Route path='/services'element={<Services/>}/>
+    <Route path='*' element={<Error/>}/>
   </Routes>
   <Footer/>
   </BrowserRouter>
