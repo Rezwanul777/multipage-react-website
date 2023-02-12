@@ -8,6 +8,8 @@ import Home from './Home'
 import Services from './Services'
 import { ThemeProvider } from 'styled-components'
 import Error from './Error'
+import GoToTop from './components/GoToTop'
+import { GlobalStyle } from './GlobalStyle'
 
 const App = () => {
   const theme = {
@@ -32,6 +34,8 @@ const App = () => {
   };
   return (
     <ThemeProvider theme={theme}>
+      <GlobalStyle />
+      <GoToTop/>
       < BrowserRouter>
   <Header/>
   <Routes>
@@ -41,6 +45,7 @@ const App = () => {
     <Route path='/services'element={<Services/>}/>
     <Route path='*' element={<Error/>}/>
   </Routes>
+  
   <Footer/>
   </BrowserRouter>
    </ThemeProvider>

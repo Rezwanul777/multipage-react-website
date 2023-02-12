@@ -6,7 +6,7 @@ import { Button } from "./components/Button";
 
 const Services = () => {
   const {services}=useGlobalContext()
-  console.log(services)
+  
   return (
     <Wrapper className="section">
       <h2 className='common-heading'>Our Services</h2>
@@ -103,6 +103,20 @@ figure {
     height: 20rem;
     transition: all 0.2s linear;
   }
-}`
+}
+@media (max-width: ${({ theme }) => theme.media.tab}) {
+  .grid-three-column {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: ${({ theme }) => theme.media.mobile}) {
+  .grid-two-column,
+  .grid-three-column {
+    grid-template-columns: 1fr;
+  }
+}
+
+`
 
 export default Services

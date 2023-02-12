@@ -26,7 +26,7 @@ display:flex;
 justify-content: space-between;
 align-items: center;
 .logo{
-  height: 4.5rem;
+  height: 6.5rem;
   max-width: 100%;
 }
 

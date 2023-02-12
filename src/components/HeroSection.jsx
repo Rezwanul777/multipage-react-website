@@ -74,6 +74,11 @@ padding: 9rem 0;
   .hero-img {
     max-width: 80%;
   }
+  @media (max-width: ${({ theme }) => theme.media.mobile}) {
+    .grid {
+      gap: 7.2rem;
+    }
+  }
 `
 
 export default HeroSection;
